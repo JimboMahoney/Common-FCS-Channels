@@ -9,3 +9,6 @@ When trying to work with this in many software packages, including flowCore, thi
 
 ### Usage
 Simply copy/paste the script and run it in [R](https://cran.r-project.org/). My preference is an IDE such as [R-Studio](https://rstudio.com/).
+
+### See Also
+For a much more powerful (interative) method to compare and change Channel (Parameter) names etc. check out the [Premessa](https://github.com/ParkerICI/premessa) package.
