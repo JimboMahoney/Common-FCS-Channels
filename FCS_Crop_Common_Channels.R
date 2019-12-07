@@ -19,8 +19,8 @@ if (!require("tcltk2")) {
 if (!require("flowCore")) {
   if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-  
-  BiocManager::install("flowCore")
+    BiocManager::install("flowCore")
+    library(flowCore)
 }
 
 if (!require("tidyverse")) {
