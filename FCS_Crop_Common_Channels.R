@@ -63,13 +63,7 @@ if ((testfile)=="character(0)"){
   # Ask which files to open
   filesToOpen <- tk_select.list(filesToOpenList, multiple=TRUE,title="Select files to use.") 
   
-  if (length(filesToOpen<2)){
-    tkmessageBox(title = "Error!",
-                 message = "Please select more than one file!.", type = "ok")
-    # Ask which files to open
-    filesToOpen <- tk_select.list(filesToOpenList, multiple=TRUE,title="Select files to use.") 
-  }else{
-  
+ 
   # Load all into separate files
   fcs_raw <- NULL
   for (i in filesToOpen){
@@ -114,6 +108,6 @@ if ((testfile)=="character(0)"){
     #write.flowSet(get(paste("fcs_raw",i,sep="_")),getwd(),paste(filesToOpen[i],"_crop.fcs",sep=""))
   }
   
-  } # End of only one file loop
+
 } # End of file cancel loop
   
