@@ -12,5 +12,5 @@ Simply copy/paste the script and run it in [R](https://cran.r-project.org/). My 
 
 ### Limitations
 If the user-defined parameter names are different between files, this script won't be affected, but the output files will still have differently named channels / parameters. This may or may not be a problem downstream.
-<br>
+<br><br>
 For a much more powerful (interative) method to compare and change Channel (Parameter) names etc. check out the [Premessa](https://github.com/ParkerICI/premessa) package.
